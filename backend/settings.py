@@ -14,7 +14,11 @@ SECRET_KEY = "vfsv*-wm^k*2dn@n+qx2$%0%iefugg-xn6_*v-o5_de&z#w^%^"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["sadek-portfolio.herokuapp.com", "127.0.0.1:8"]
+ALLOWED_HOSTS = [
+    "sadek-portfolio.herokuapp.com",
+    "127.0.0.1",
+    "portfolio.devirfan.com",
+]
 
 
 # Application definition
